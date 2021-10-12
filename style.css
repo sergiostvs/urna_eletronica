@@ -101,9 +101,11 @@ body{
 }
 .d-1-3{
     height: 50px;
+    display: flex;
 }
 .numero{
     display: inline-block;
+    margin-left: 3px;
     width: 30px;
     height: 40px;
     border: 1px solid #000;
@@ -152,6 +154,9 @@ body{
 .aviso--grande{
     font-size: 40px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .aviso--gigante{
